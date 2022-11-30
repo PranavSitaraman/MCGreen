@@ -1,0 +1,61 @@
+<launch>
+	<machine name="upper_pi" address="upper_pi" user="upperpi" password="mcgreen" timeout="10" env-loader="~/upper_ws/devel/remote_env_loader.sh"/>
+	<group ns="Sensors">
+		<param name="rate" value="100" type="int"/>
+		<param name="default_ultra" value="80" type="int"/>
+		<param name="threshold_ultra" value="40" type="int" />
+		<node machine="upper_pi" name="Right_Arm_Sensor" pkg="mcgreen" respawn="true" type="arm_sensor.py">
+			<param name="topic" value="/right_arm_sensor"/>
+			<param name="trigger" value="11"/>
+			<param name="echo" value="13" />
+		</node>
+		<node machine="upper_pi" name="Left_Arm_Sensor" pkg="mcgreen" respawn="true" type="arm_sensor.py">
+			<param name="topic" value="/left_arm_sensor"/>
+			<param name="trigger" value="3"/>
+			<param name="echo" value="5" />
+		</node>
+	</group>
+	<node machine="upper_pi" name="Face_Controller" pkg="mcgreen" type="face_controller.py"/>
+	<node machine="upper_pi" name="Head_Servo_Driver" pkg="mcgreen" type="head_servo_driver.py">
+		<param name="vertical" value="21"/>
+		<param name="horizontal" value="19"/>
+	</node>
+	<node machine="upper_pi" name="Right_Linear_Actuator" pkg="mcgreen" respawn="true" type="linear_actuator_driver.py">
+		<param name="side" value="right"/>
+		<param name="IN1" value="38"/>
+		<param name="IN2" value="36"/>
+		<param name="PWM" value="40"/>
+		<param name="PWM_VAL" value="100"/>
+	</node>
+	<node machine="upper_pi" name="Left_Linear_Actuator" pkg="mcgreen" respawn="true" type="linear_actuator_driver.py">
+		<param name="side" value="left"/>
+		<param name="IN1" value="35"/>
+		<param name="IN2" value="33"/>
+		<param name="PWM" value="37"/>
+		<param name="PWM_VAL" value="100"/>
+	</node>
+	<machine name="lower_pi" address="lower_pi" user="lowerpi" password="mcgreen" timeout="10" env-loader="~/lower_ws/devel/remote_env_loader.sh"/>
+	<node machine="lower_pi" name="OLED_Screen_Controller" pkg="mcgreen" type="oled_screen_controller.py">
+		<param name="rate" value="10" type="int"/>
+	</node>
+	<node machine="lower_pi" name="Remote_Control_Receiver" pkg="mcgreen" type="remote_control_receiver.py">
+		<param name="rate" value="20" type="int"/>
+	</node>
+	<node machine="lower_pi" name="Drivetrain_Driver" pkg="mcgreen" type="drivetrain_driver.py">
+		<param name="LIN1" value="-"/>
+		<param name="LIN2" value="-"/>
+		<param name="LPWM" value="-"/>
+		<param name="RIN1" value="-"/>
+		<param name="RIN2" value="-"/>
+		<param name="RPWM" value="-"/>
+		<param name="threshold_joystick" value="-"/>
+	</node>
+	<node name="Mode_Select" pkg="mcgreen" respawn="true" type="mode_select.py" />
+	<node name="Movement_Output" pkg="mcgreen" respawn="true" type="movement_output.py" >
+		<param name="rate" value="50" type="int"/>
+	</node>
+	<node name="Remote_Sensors_Processor" pkg="mcgreen" respawn="true" type="remote_sensors_processor.py">
+		<param name="rate" value="100" type="int"/>
+	</node>
+	<node name="Game_Interface" pkg="mcgreen" type="game_interface.py"/>
+</launch>

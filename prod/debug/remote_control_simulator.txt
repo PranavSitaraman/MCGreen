@@ -1,0 +1,6 @@
+WASD - Drivetrain Motor Control
+R - Reset
+U - Up & Down
+1,2,3 - Mode
+J,K - Arm Actuator In
+N,M - Arm Actuator Out

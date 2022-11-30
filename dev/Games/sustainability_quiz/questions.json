@@ -1,0 +1,152 @@
+{
+	"point_vals":
+	{
+		"level_easy": [100, 50],
+		"level_medium": [200, 100],
+		"level_hard": [400, 200]
+	},
+
+	"level_easy":
+	[
+
+		{
+			"question":
+			"What is NOT a way to prevent waste?",
+			"choices":
+			["Littering", "Reduce", "Reuse", "Recycle"],
+			"answer": "Littering"
+		},
+
+		{
+			"question":
+			"Which thing pollutes the earth?",
+			"choices":
+			["Cars", "Trees", "Doesn't Matter", "All of the above"],
+			"answer": "Cars"
+		},
+
+		{
+			"question":
+			"By ______ there will be more plastic||in the ocean than fish",
+			"choices":
+			["2050", "2020", "2080", "2100"],
+			"answer": "2050"
+		},
+
+		{
+			"question":
+			"What can you ride to reduce your||carbon footprint?",
+			"choices":
+			["Public Transport", "Cars", "Trucks", "Motorcycles"],
+			"answer": "Public Transport"
+		},
+
+		{
+			"question":
+			"Is throwing electronics in the trash||hazardous to the environment?",
+			"choices":
+			["Yes", "No", "Sometimes", "Maybe"],
+			"answer": "Yes"
+		},
+
+		{
+			"question":
+			"What is something ANY kid can do||to save electricity",
+			"choices":
+			["All of the above", "Set timer for bathroom fans", "Only using lights when needed", "Use powerstrips for easy turn off"],
+			"answer": "All of the above"
+		},
+
+		{
+			"question":
+			"Which items can be recycled?",
+			"choices":
+			["Newspaper & Glass Bottles", "Pizza Boxes & Plastic Bags", "Birthday Cards & Paint", "Batteries & Electronics"],
+			"answer": "Newspaper & Glass Bottles"
+		},
+
+		{
+			"question":
+			"Should we turn off appliances and||electronics when we are not using them?",
+			"choices":
+			["Yes", "No", "Sometimes", "Maybe"],
+			"answer": "Yes"
+		}
+
+	],
+
+	"level_medium":
+	[
+
+		{
+			"question":
+			"Which source of alternative energy||is most efficient?",
+			"choices":
+			["Wind Energy", "Land Energy", "Chemical Energy", "Water Energy"],
+			"answer": "Wind Energy"
+		},
+
+		{
+			"question":
+			"Is nuclear power a renewable energy source?",
+			"choices": ["No", "Yes", "Sometimes", "Maybe"],
+			"answer": "No"
+		},
+
+		{
+			"question": "When you're not home, how many degrees||should you raise/lower the thermostat by?",
+			"choices": ["7-10 F", "Keep it the same", "2-3 F", "10-12 F"],
+			"answer": "7-10 F"
+		},
+
+		{
+			"question": "Does a computer's screen saver||save energy or waste energy?",
+			"choices": ["Waste Energy", "Save Energy", "Neither", "Both"],
+			"answer": "Waste Energy"
+		},
+
+		{
+			"question": "Put your computer to sleep mode||if you're not using for more than _____",
+			"choices": ["20 Minutes", "2 Hours", "45 Minutes", "6 Hours"],
+			"answer": "20 Minutes"
+		},
+
+		{
+			"question": "Do chargers, coffeemakers, and printers||consume energy when they're not being used?",
+			"choices": ["Yes", "No", "Sometimes", "Maybe"],
+			"answer": "Yes"
+		}
+
+
+
+	],
+
+	"level_hard":
+	[
+
+		{
+			"question": "Recycling 1 ton of paper||saves about how many trees?",
+			"choices": ["17 Trees", "3 Trees", "13 Trees", "10 Trees"],
+			"answer": "17 Trees"
+		},
+
+		{
+			"question": "Name a product that recycled||paper is made into?",
+			"choices": ["All of the above", "Paper Towels", "Egg Cartons", "Shirt Box"],
+			"answer": "All of the above"
+		},
+
+		{
+			"question": "Where can you recycle||plastic wrap/film?",
+			"choices": ["All of the above", "Lowe's", "Target", "Grocery chains"],
+			"answer": "All of the above"
+		},
+
+		{
+			"question": "Where can you find groups that||will take stuff to reuse?",
+			"choices": ["MCIA's Re-Use It Book!", "Call 911", "Ask your 'green' neighbor", "Google searches"],
+			"answer": "MCIA's Re-Use It Book!"
+		}
+	]
+
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>mcgreen_control</name>
+  <version>2.0.0</version>
+  <description>The MCGreen 2.0 control package</description>
+
+  <maintainer email="geeky2307@gmail.com">mcgreen</maintainer>
+
+  <license>BSD</license>
+
+  <url type="Repository">https://github.com/rocketrunner22/mcgreen_control</url>
+
+  <author email="geeky2307@gmail.com">Raj Joshi</author>
+  <author email="mihir.rastogi.33@gmail.com">Mihir Rastogi</author>
+  <author email="chandaliyaa@mcvts.net">Aditya Chandaliya</author>
+  <author email="shteymang@mcvts.net">Gil Shteyman</author>
+  <author email="nishil.patel13@gmail.com">Nishil Patel</author>
+  <author email="grebinskiym@mcvts.net">Maxim Grebinskiy</author>
+  <author email="gundas@mcvts.net">Sanjana Gunda</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+  <export>
+  </export>
+</package>

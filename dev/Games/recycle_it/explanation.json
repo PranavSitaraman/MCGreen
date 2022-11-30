@@ -1,0 +1,46 @@
+{
+  "images":
+  {
+    "Paper Bag": "good_bag.png",
+    "Soda Can": "good_soda.png",
+    "Type 1 Plastic": "plastic1.png",
+    "Type 2 Plastic": "plastic2.png",
+    "Banana Peel": "enemy_banana.png",
+    "Apple Core": "enemy_core.png",
+    "Trash Bags": "enemy_trash.png",
+    "Type 6 Plastic": "plastic6.png",
+    "Type 3 Plastic": "plastic3.png",
+    "Pizza Box": "pizza.png",
+    "Bag of Recyclables": "bag.png",
+    "Clothes": "clothes.png",
+    "Computers": "computer.png",
+    "Medicine": "medicine.png",
+    "Shredded Paper": "shreddedpaper.png",
+    "Tires": "tire.png"
+
+  },
+  "explanations":
+  {
+    "Paper Bag": "Paper bags can be recycled because || they are made of paper.",
+    "Soda Can": "Soda cans can be recycled because they|| are made of aluminum.",
+    "Type 1 Plastic": "Type 1 pastic can be recycled.",
+    "Type 2 Plastic": "Type 2 plastic can be recycled.",
+    "Banana Peel": "Banana Peels should be composted || instead of recycled.",
+    "Apple Core": "Apple Cores should be composted || instead of recycled.",
+    "Trash Bags": "Trash/Garbage bags with garbage in || them should be put in the trash can.",
+    "Type 6 Plastic": "Type 6 plastic cannot be recycled || in Middlesex County.",
+    "Type 3 Plastic": "Type 3 plastic cannot be recycled.",
+    "Pizza Box": "Pizza boxes should not be recycled as || they have food contamination.",
+    "Bag of Recyclables": "You should not put recyclables in a bag || as they get stuck in recycling machines.",
+    "Clothes": "Clothes must be dropped off at a || special location for recycling.",
+    "Computers": "Computer manufacturers offer || take-back recycling.",
+    "Medicine": "Recycle your medicine bottles at || your local pharmacy.",
+    "Shredded Paper": "Shredded Paper can be composted or sent || to special recycling facilities.",
+    "Tires": "Tires can be recycled at a local recycling || center and some auto shops."
+
+
+  }
+
+
+
+}

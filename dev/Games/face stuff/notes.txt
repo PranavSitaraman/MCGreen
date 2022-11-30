@@ -1,0 +1,4 @@
+original size: 618x618
+width and height: 400
+X: 109
+Y: 159

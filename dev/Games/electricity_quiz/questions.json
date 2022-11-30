@@ -1,0 +1,113 @@
+{
+	"point_vals":
+	{
+		"level_easy": [100, 50],
+		"level_medium": [200, 100],
+		"level_hard": [400, 200]
+	},
+
+	"level_easy":
+	[
+
+		{
+			"question": "What is electricity a flow of?",
+			"choices":
+			["Electrons", "Protons", "Neutrons", "Photons"],
+			"answer": "Electrons"
+		},
+
+		{
+			"question":
+			"Electricity moves only in a _________ circuit",
+			"choices":
+			["closed", "open", "Doesn't Matter", "All of the above"],
+			"answer": "closed"
+		},
+
+		{
+			"question":
+			"Electrical _______ let electricity flow through",
+			"choices":
+			["conductors", "insulators", "receivers", "transceivers"],
+			"answer": "conductors"
+		},
+
+		{
+			"question":
+			"Lightning is caused by the buildup||of charges in ________",
+			"choices":
+			["clouds", "the ground", "air", "water"],
+			"answer": "clouds"
+		}
+	],
+
+	"level_medium":
+	[
+
+		{
+			"question":
+			"Which source of alternative||energy is the most efficient?",
+			"choices":
+		       	["Wind Energy", "Land Energy", "Chemical Energy", "Water Energy"],
+			"answer": "Wind Energy"
+		},
+
+		{
+			"question": "How efficient are solar panels?",
+			"choices":
+		       	["11-15%", "20-27%", "4-12%", "30-45%"],
+			"answer": "11-15%"
+		},
+
+		{
+			"question":
+			"What do our everyday energy choices affect?",
+			"choices":
+			["Air & Water Quality", "Our Hairstyles", "Soil Quality", "Food We Eat"],
+			"answer": "Air & Water Quality"
+		},
+
+		{
+			"question":
+		       	"What do photo-voltaic cells||convert sunlight into?",
+			"choices":
+			["Electricity", "Energy", "Power", "Wind"],
+			"answer": "Electricity"
+		}
+
+	],
+
+	"level_hard":
+	[
+		{
+			"question": "Which light source is the||most energy efficient?",
+			"choices": ["LED Bulb", "Fluorescent Bulb", "Incandescent Bulb", "A Candle"],
+			"answer": "LED Bulb"
+		},
+
+		{
+			"question": "What is the unit of||measurement for electrical power",
+			"choices": ["Ohm", "Watt", "Volt", "Ampere"],
+			"answer": "Watt"
+		},
+
+		{
+			"question": "Which type of current flows||in only one direction?",
+			"choices": ["DC", "AC", "Neither", "Both"],
+			"answer": "DC"
+		},
+
+		{
+			"question": "Why should we buy||energy-efficient appliances?",
+			"choices": ["Lower electric bills", "Save money", "Burn less fossil fuels", "All of the above"],
+			"answer": "All of the above"
+		},
+
+		{
+			"question": "Which energy source is used||the most in the US?",
+			"choices": ["Nuclear power", "Coal", "Natural gas", "Solar power"],
+			"answer": "Natural gas"
+		}
+	]
+
+}
